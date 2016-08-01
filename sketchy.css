@@ -1,0 +1,101 @@
+body {
+    margin:0px;
+    background-color:black;
+}
+
+#blackground {
+    background: url("paintbackground.png") no-repeat;
+    background-color:black;
+    width:1280px;
+    height:720px;
+    margin:0 auto;
+}
+
+.tools a {
+    border: 1px solid black;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border-radius:100px;
+}
+
+#sketchTools .tools {
+    border: 1px solid black;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border-radius:100px;
+    background-color:#ccc;
+}
+
+#sketchTools {
+    text-align:center;
+    width:250px;
+    margin:0 auto;
+}
+
+#sketchTools #change {
+    margin-top:10px;
+}
+
+#SketchPad {
+    background-size:contain;
+    margin-left:319px;
+    margin-top:92px;
+}
+
+#00f {
+    color:pink!important;
+}
+
+
+}
+
+.tools #color a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+
+
+#color {
+    top:475px;
+    position:absolute;
+    width:125px;
+    margin-left:115px;
+}
+
+#color a {
+    float:left;
+    margin:4px;
+}
+
+#size {
+    position:absolute;
+    margin:520px 0 0 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
